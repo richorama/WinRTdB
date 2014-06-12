@@ -1,0 +1,23 @@
+﻿<Page
+    Background="Black"
+    x:Class="IoT.WinRT.MainPage"
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IoT.WinRT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:series="using:ModernUI.Toolkit.Data.Charting.Charts.Series"
+    mc:Ignorable="d">
+
+    <Grid Background="Black" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+        <StackPanel>
+            <TextBlock FontSize="512" x:Name="TextBlock1"></TextBlock>
+            <ProgressBar Height="100" Width="1000" Foreground="Green" x:Name="ProgressBar1" Maximum="10"></ProgressBar>
+        </StackPanel>
+
+    </Grid>
+</Page>
